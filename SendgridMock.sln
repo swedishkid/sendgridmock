@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendgridMock", "SendgridMock\SendgridMock.csproj", "{5EBC8866-EC0B-4673-B41F-E124FAC2BA86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendgridMock.Web", "SendgridMock.Web\SendgridMock.Web.csproj", "{F6511C7C-0AA0-4C9C-A965-612B1501219F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendgridMock.Tester", "SendgridMock.Tester\SendgridMock.Tester.csproj", "{A9D0F1B4-7308-453D-B63E-D87BBA201846}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5EBC8866-EC0B-4673-B41F-E124FAC2BA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EBC8866-EC0B-4673-B41F-E124FAC2BA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EBC8866-EC0B-4673-B41F-E124FAC2BA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6511C7C-0AA0-4C9C-A965-612B1501219F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6511C7C-0AA0-4C9C-A965-612B1501219F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6511C7C-0AA0-4C9C-A965-612B1501219F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6511C7C-0AA0-4C9C-A965-612B1501219F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9D0F1B4-7308-453D-B63E-D87BBA201846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D0F1B4-7308-453D-B63E-D87BBA201846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D0F1B4-7308-453D-B63E-D87BBA201846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D0F1B4-7308-453D-B63E-D87BBA201846}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
