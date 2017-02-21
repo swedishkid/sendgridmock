@@ -1,0 +1,9 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<System.Collections.Generic.List<string>>
+    
+<h1>Dates</h1>
+
+@foreach (var date in Model)
+{
+    
+    <a href="/@date">@date</a> <br />
+}

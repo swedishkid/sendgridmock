@@ -1,1 +1,0 @@
-{"from":{"name":"John Doe","email":"johndoe@example.com"},"subject":"This is awesome","personalizations":[{"to":[{"name":"Jane Doe","email":"janedoe@example.com"}]}],"content":[{"type":"text/html","value":"\u003ch1\u003eThis is so cool\u003c/h1\u003e"}],"categories":["ListingReply"]}

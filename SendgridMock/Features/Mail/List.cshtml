@@ -1,0 +1,25 @@
+﻿@using System.Linq
+@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<SendgridMock.Features.Mail.List.Model>
+    
+<h1>Emails @Model.Date</h1>
+
+<table>
+    <tr>
+        <td><strong>Received</strong></td>
+        <td><strong>Category</strong></td>
+        <td><strong>To</strong></td>
+        <td><strong>From</strong></td>
+        <td><strong>Subject</strong></td>
+    </tr>
+    @foreach (var mail in Model.Mails)
+    {
+        <tr>
+            <td>@mail.ReceivedAt.ToString("dd-MM-yyyy HH:mm:ss")</td>
+            <td>@string.Join(", ", mail.Categories)</td>
+            <td>@mail.From.Email</td>
+            <td>@string.Join(", ", @mail.Personalizations.FirstOrDefault().To.Select(x => x.Email + " " + x.Name))</td>
+            <td>@mail.Subject</td>
+            <td><a href="/@Model.Date/@mail.Id">Se email</a></td>
+        </tr>
+    }
+</table>
